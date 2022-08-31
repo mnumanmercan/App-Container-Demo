@@ -1,0 +1,178 @@
+﻿html {
+    outline: none !important;
+    font-size: 18px;
+}
+
+body {
+    font-family: Arial, Helvetica, sans-serif;
+    background-image: url("../library.jpg");
+    background-size: cover;
+}
+
+.container {
+    width: 50%;
+    height: 400px;
+    margin-right: auto;
+    margin-left: auto;
+    background-color: rgb(245, 245, 245, 0.8);
+    padding: 40px;
+    border-radius: 10px;
+}
+
+.quote-box {
+    padding: 30px;
+    width: 90%;
+    background-color: rgb(128, 128, 128);
+    border: 1px solid rgba(0, 0, 0, 0.2);
+    border-radius: 8px;
+    box-shadow: 1px 1px 20px gray;
+}
+
+h1 {
+    text-align: center;
+    color: rgb(74, 74, 74);
+}
+
+.buttons {
+    position: fixed;
+    padding: 15px;
+    margin: 15px;
+    display: inline-grid;
+    grid-template-rows: auto auto;
+    grid-template-columns: auto auto;
+    grid-gap: 3px;
+    justify-items: center;
+    align-items: center;
+    top: 50%;
+}
+
+button {
+    cursor: pointer;
+    border: 0px;
+    border-radius: 10px;
+    transition: 0.4s;
+}
+
+#quoteBtn {
+    width: 120px;
+    height: 50px;
+    background-color: rgb(233, 218, 193);
+    box-shadow: 1px 1px 8px rgb(55, 54, 50);
+}
+
+#twitterBtn {
+    margin-left: 20px;
+    width: 50px;
+    height: 50px;
+    border-radius: 50%;
+    box-shadow: 1px 1px 8px rgb(29, 155, 240);
+    background-color: white;
+}
+
+i {
+    font-size: 20px;
+    color: rgb(29, 155, 240);
+}
+
+@media (max-width:900px) {
+    html {
+        font-size: 14px;
+    }
+
+    .container {
+        padding: 30px;
+        border-radius: 10px;
+        height: 420px;
+    }
+
+    .quote-box {
+        padding: 25px;
+        width: 80%;
+        height: 220px;
+    }
+
+    h1 {
+        font-size: 1.5em;
+    }
+
+    button {
+        height: 40px;
+        width: 30%;
+    }
+}
+
+@media (max-width:700px) {
+    html {
+        font-size: 12px;
+    }
+
+    .container {
+        padding-right: 25px;
+        border-radius: 10px;
+        height: 420px;
+    }
+
+    .quote-box {
+        padding-right: 20px;
+        width: 90%;
+    }
+
+    h1 {
+        font-size: 1.5em;
+    }
+
+    button {
+        height: 30px;
+        width: 40%;
+    }
+
+    #quoteBtn {
+        font-size: 12px;
+    }
+}
+
+@media (max-width:500px) {
+    html {
+        font-size: 12px;
+    }
+
+    .container {
+        padding-right: 40px;
+        border-radius: 10px;
+        height: 420px;
+    }
+
+    .quote-box {
+        padding-right: 25px;
+        width: 90%;
+    }
+
+    h1 {
+        font-size: 1.5em;
+    }
+
+    button {
+        height: 30px;
+        width: 25%;
+    }
+
+    .buttons {
+        left: 6em;
+    }
+
+    #quoteBtn {
+        font-size: 12px;
+        width: 60px;
+        height: 40px;
+    }
+
+    .quote-box {
+        font-size: 1.1em;
+        display: grid;
+        grid-template-rows: auto auto;
+        justify-items: center;
+        padding: 25px;
+        width: 80%;
+        height: 220px;
+    }
+}

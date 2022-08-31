@@ -1,0 +1,123 @@
+﻿body {
+    font-family: Arial, Helvetica, sans-serif;
+    font-size: 16px;
+    background-color: rgba(170, 228, 223, 0.8);
+    overflow: hidden
+}
+/*Calculate Area */
+.calculateArea {
+    padding: 40px;
+    width: 300px;
+    margin-left: auto;
+    margin-right: auto;
+    background-color: rgba(0, 0, 0, 0.2);
+    border: 1px solid darkgray;
+    border-radius: 5px;
+    box-shadow: 0px 0px 10px gray;
+}
+
+    .calculateArea > h1 {
+        text-align: center;
+    }
+
+.calculate-row {
+    width: 90%;
+    margin-bottom: 8px;
+}
+
+    .calculate-row > label {
+        display: block;
+        margin-bottom: 5px;
+    }
+
+/*Input Area*/
+input,
+button {
+    width: 100%;
+    border-radius: 5px;
+    height: 32px;
+    border: 2px solid rgb(0, 0, 0,0.2);
+    padding-left: 15px;
+    padding-right: 15px;
+    font-size: inherit;
+    font-family: inherit;
+    outline: none !important;
+    transition: 0.4s;
+    background-color: #fff;
+}
+
+button {
+    display: inline-block;
+    width: auto;
+    border: 0;
+    background-color: #eee;
+}
+
+    button[type=submit] {
+        margin-left: 10px;
+        color: white;
+        background-color: rgb(68, 176, 255);
+        float: right;
+    }
+
+    button[type=reset] {
+        margin-left: 10px;
+        color: white;
+        background-color: rgb(255, 124, 68);
+    }
+
+input::placeholder {
+    color: rgb(175, 175, 175);
+}
+
+input:focus {
+    border: 2px solid rgb(68, 176, 255);
+}
+
+/*Result Sections*/
+
+.footer-res {
+    padding-top: 10px;
+}
+
+.values > span {
+    margin-top: 8px;
+}
+
+/*--------------TABLE Area------------------*/
+.table {
+}
+
+#values {
+    font-family: Arial, Helvetica, sans-serif;
+    border-collapse: collapse;
+    width: 100%;
+    display: inline;
+    text-align: center;
+    position: absolute;
+}
+
+    #values td, #values th {
+        border: 1px solid #ddd;
+        padding: 8px;
+    }
+
+    #values tr:nth-child(even) {
+        background-color: #f2f2f2;
+    }
+
+    #values tr:nth-child(odd) {
+        background-color: #bbb8b8;
+    }
+
+    #values tr:hover {
+        background-color: #ddd;
+    }
+
+    #values th {
+        padding-top: 12px;
+        padding-bottom: 12px;
+        text-align: left;
+        background-color: #04AA6D;
+        color: white;
+    }

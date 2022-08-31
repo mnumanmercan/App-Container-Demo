@@ -1,0 +1,74 @@
+﻿<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>BMI Calculator</title>
+    <link rel="stylesheet" href="~/css/bmi.css">
+</head>
+
+<body>
+    <div class="container">
+        <div class="calculateArea">
+            <h1>BMI Calculator</h1>
+            <div class="calculate-row">
+                <label for="height">Height : </label>
+                <input type="text" id="height" placeholder="Height (cm)">
+            </div>
+
+            <br>
+            <div class="calculate-row">
+                <label for="weight">Weight : </label>
+                <input type="text" id="weight" placeholder="Weight (kg)">
+            </div>
+
+            <br>
+            <div class="button">
+                <button type="reset" id="resetBtn">Reset</button>
+                <button type="submit" id="calculateBtn">Calculate</button>
+            </div>
+
+
+            <hr>
+            <div class="footer-res">
+                <div class="values">
+                    <span id="heightSpan">Your Height : </span>
+                    <br>
+                    <span id="weightSpan">Your Weight : </span>
+                </div>
+                <div class="result">
+                    Your BMI :
+                </div>
+            </div>
+        </div>
+        <div class="table">
+            <table id="values">
+                <tr>
+                    <th>Age</th>
+                    <th>Ideal values</th>
+                </tr>
+                <tr>
+                    <td>19-24</td>
+                    <td>19-24 BMI</td>
+                </tr>
+                <tr>
+                    <td>20-25</td>
+                    <td>20-25 BMI</td>
+                </tr>
+                <tr>
+                    <td>35-44</td>
+                    <td>21-26 BMI</td>
+                </tr>
+
+            </table>
+        </div>
+
+    </div>
+
+
+    <script src="~/js/bmi.js"></script>
+</body>
+
+</html>
