@@ -13,13 +13,13 @@ changeButton.addEventListener('click', () => {
 	// choosenQuote.innerText = quotes[rnd].quote;
 	// source.innerText = " - " + quotes[rnd].source;
 	
-	 fetch('http://api.quotable.io/random')
+	 fetch('https://api.quotable.io/random')
 		.then(response => response.json())
 		.then(result => {
-			console.log(result);
+			
 			choosenQuote.innerText = ' \" ' + result.content + '  \" \n';
 			source.innerText = " - " + result.author;
-			console.log(choosenQuote.innerText);
+
 		})
 	console.log("Butona bastin");
 	

@@ -2,9 +2,71 @@
     ViewData["Title"] = "Home Page";
 }
 
-<div class="text-center">
+@*<div class="text-center">
     <a href="Home/Weather">Weather</a>
     <a href="Home/ToDoApp">To Do App</a>
     <a href="Home/BMICalculator">BMI Calculator</a>
     <a href="Home/RandomQuotes">Random Quote Generator</a>
 </div>
+*@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>App container</title>
+    <link rel="stylesheet" href="~/css/style.css">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.1.2/css/all.min.css">
+</head>
+
+<body>
+
+    <div class="container">
+        <div class="app-container" id="todo-app">
+            <h1>To-Do APP</h1>
+            <hr>
+            <div class="app-content">
+                <a href="Home/ToDoApp">
+                    <button class="toapp"> To Do App</button>
+                </a>
+                
+            </div>
+        </div>
+        <div class="app-container" id="bmi-app">
+            <h1>BMI Calculator</h1>
+            <hr>
+            <div class="app-content">
+                <a href="Home/BMICalculator">
+                    <button class="toapp">BMI Calculator</button>
+                </a>
+                
+            </div>
+        </div>
+        <div class="app-container" id="randomquotes-app">
+            <h1>Random Quotes</h1>
+            <hr>
+            <div class="app-content">
+                <a href="Home/RandomQuotes">
+                    <button class="toapp">Random Quote</button>
+                </a>
+                
+            </div>
+        </div>
+        <div class="app-container" id="weather-app">
+            <h1>Current Weather</h1>
+            <hr>
+            <div class="app-content">
+                <a href="Home/Weather">
+                    <button class="toapp">Weather App</button>
+                </a>
+                
+            </div>
+        </div>
+    </div>
+
+    <script src="~/js/script.js"></script>
+</body>
+
+</html>

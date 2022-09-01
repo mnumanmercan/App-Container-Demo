@@ -1,20 +1,20 @@
 {
   "format": 1,
   "restore": {
-    "C:\\Users\\yazilim.park10\\source\\repos\\WebApplication6\\WebApplication6\\WebApplication6.csproj": {}
+    "C:\\Users\\90537\\Desktop\\Ademİlter\\GitAppCont\\App-Container-Demo\\WebApplication6\\WebApplication6.csproj": {}
   },
   "projects": {
-    "C:\\Users\\yazilim.park10\\source\\repos\\WebApplication6\\WebApplication6\\WebApplication6.csproj": {
+    "C:\\Users\\90537\\Desktop\\Ademİlter\\GitAppCont\\App-Container-Demo\\WebApplication6\\WebApplication6.csproj": {
       "version": "1.0.0",
       "restore": {
-        "projectUniqueName": "C:\\Users\\yazilim.park10\\source\\repos\\WebApplication6\\WebApplication6\\WebApplication6.csproj",
+        "projectUniqueName": "C:\\Users\\90537\\Desktop\\Ademİlter\\GitAppCont\\App-Container-Demo\\WebApplication6\\WebApplication6.csproj",
         "projectName": "WebApplication6",
-        "projectPath": "C:\\Users\\yazilim.park10\\source\\repos\\WebApplication6\\WebApplication6\\WebApplication6.csproj",
-        "packagesPath": "C:\\Users\\yazilim.park10\\.nuget\\packages\\",
-        "outputPath": "C:\\Users\\yazilim.park10\\source\\repos\\WebApplication6\\WebApplication6\\obj\\",
+        "projectPath": "C:\\Users\\90537\\Desktop\\Ademİlter\\GitAppCont\\App-Container-Demo\\WebApplication6\\WebApplication6.csproj",
+        "packagesPath": "C:\\Users\\90537\\.nuget\\packages\\",
+        "outputPath": "C:\\Users\\90537\\Desktop\\Ademİlter\\GitAppCont\\App-Container-Demo\\WebApplication6\\obj\\",
         "projectStyle": "PackageReference",
         "configFilePaths": [
-          "C:\\Users\\yazilim.park10\\AppData\\Roaming\\NuGet\\NuGet.Config",
+          "C:\\Users\\90537\\AppData\\Roaming\\NuGet\\NuGet.Config",
           "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.Offline.config"
         ],
         "originalTargetFrameworks": [
@@ -45,7 +45,8 @@
             "net47",
             "net471",
             "net472",
-            "net48"
+            "net48",
+            "net481"
           ],
           "assetTargetFallback": true,
           "warn": true,
@@ -57,7 +58,7 @@
               "privateAssets": "all"
             }
           },
-          "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\5.0.411\\RuntimeIdentifierGraph.json"
+          "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\6.0.400\\RuntimeIdentifierGraph.json"
         }
       }
     }
