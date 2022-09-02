@@ -23,6 +23,17 @@
 <body>
 
     <div class="container">
+        <div class="app-container" id="weather-app">
+            <h1>Current Weather</h1>
+            <hr>
+            <div class="app-content">
+                <a href="Home/Weather">
+                    <button class="toapp" asp-controller="Home" asp-action="Weather"> Weather App</button>
+                </a>
+
+            </div>
+        </div>
+
         <div class="app-container" id="todo-app">
             <h1>To-Do APP</h1>
             <hr>
@@ -31,6 +42,16 @@
                     <button class="toapp" asp-controller="Home" asp-action="ToDoApp"> To Do App</button>
                 </a>
                 
+            </div>
+        </div>
+        <div class="app-container" id="randomquotes-app">
+            <h1>Random Quotes</h1>
+            <hr>
+            <div class="app-content">
+                <a href="Home/RandomQuotes">
+                    <button class="toapp" asp-controller="Home" asp-action="RandomQuotes">Random Quote</button>
+                </a>
+
             </div>
         </div>
         <div class="app-container" id="bmi-app">
@@ -43,26 +64,8 @@
                 
             </div>
         </div>
-        <div class="app-container" id="randomquotes-app">
-            <h1>Random Quotes</h1>
-            <hr>
-            <div class="app-content">
-                <a href="Home/RandomQuotes" >
-                    <button class="toapp" asp-controller="Home" asp-action="RandomQuotes">Random Quote</button>
-                </a>
-                
-            </div>
-        </div>
-        <div class="app-container" id="weather-app">
-            <h1>Current Weather</h1>
-            <hr>
-            <div class="app-content">
-                <a href="Home/Weather" >
-                    <button class="toapp" asp-controller="Home" asp-action="Weather"> Weather App</button>
-                </a>
-                
-            </div>
-        </div>
+        
+        
     </div>
 
     <script src="~/js/script.js"></script>

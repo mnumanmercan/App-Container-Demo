@@ -1,4 +1,13 @@
-﻿* {
+﻿:root {
+    --body-color: #EAE7DC;
+    --container-color: #8E8D8A;
+    --app-cont: #D8C3A5;
+}
+ 
+
+
+
+* {
     margin: 0;
     padding: 0;
 }
@@ -6,16 +15,19 @@
 body {
     font-family: sans-serif;
     font-size: 16px;
-    background-color: rgb(165, 201, 202);
+    background-color: var(--body-color);
 }
 
+
+
+
 .container {
-    overflow-y:auto;
-    max-height:620px;
-    margin-top:20px;
+    overflow-y: auto;
+    max-height: 620px;
+    margin-top: 20px;
     padding: 20px;
     width: 85%;
-    background-color: rgb(57, 91, 100,.9);
+    background-color:var(--container-color);
     display: grid;
     grid-template-columns: auto auto auto;
     grid-gap: 20px;
@@ -42,12 +54,18 @@ body {
 .app-container {
     width: 100%;
     height: 380px;
-    background-color: rgb(165, 201, 202);
+    background-color: var(--app-cont);
     border-radius: 20px;
     box-shadow: 1px 1px 10px rgba(0, 0, 0, .3);
     background-repeat: no-repeat;
     background-position: center;
+    transition-duration:0.4s;
 }
+
+    .app-container:hover {
+        box-shadow: 1px 1px 10px rgba(0, 0, 0, .8);
+    }
+
 .app-content {
     width: 150px;
     height: 60px;
@@ -78,7 +96,7 @@ button{
     }
 #todo-app {
     background-image: url('../img/todo.png');
-    background-size: 100% 60%;
+    background-size: 100% 65%;
 }
 
 #bmi-app {
@@ -88,13 +106,13 @@ button{
 
 #randomquotes-app {
     background-image: url('../img/random.png');
-    background-size: 100% 60%;
+    background-size: 100% 65%;
 
 }
 
 #weather-app {
     background-image: url('../img/weather.png');
-    background-size: 100% 50%;
+    background-size: 100% 60%;
 }
 
 @media (max-width:900px){
